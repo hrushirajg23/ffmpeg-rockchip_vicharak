@@ -18,6 +18,8 @@
 # ==============================================================================
 
 # verified with Python 3.5.2 on Ubuntu 16.04
+import utils.transport
+import utils.session
 import argparse
 import os
 from convert_from_tensorflow import *
