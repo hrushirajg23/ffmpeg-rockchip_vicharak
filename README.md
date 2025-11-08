@@ -19,6 +19,10 @@ This project aims to provide full hardware transcoding pipeline in FFmpeg CLI fo
 * Zero-copy DMA in above stages
 
 ## How to use
+### Debain Package
+The documentation to create a custom debian package for ffmpeg is available at [Build Debian](https://github.com/BrajeshPatil/ffmpeg-rockchip_vicharak/blob/debian/debian/README.md)
+
+### Compile from source
 The documentation is available on the [Wiki](https://github.com/nyanmisaka/ffmpeg-rockchip/wiki) page of this project.
 
 

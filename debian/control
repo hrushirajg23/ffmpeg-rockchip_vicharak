@@ -1,0 +1,15 @@
+Source: ffmpeg
+Section: video
+Priority: optional
+Maintainer: Brajesh Patil <brajeshpatil11@gmail.com>
+Build-Depends: debhelper (>= 12), autoconf, automake, build-essential, cmake, git, gcc, libass-dev, libdrm-dev, libfreetype6-dev, libgnutls28-dev, libmp3lame-dev, libsdl2-dev, libtool, libva-dev, libvdpau-dev, libvorbis-dev, libxcb1-dev, libxcb-shm0-dev, libxcb-xfixes0-dev, meson, ninja-build, pkg-config, texinfo, wget, yasm, zlib1g-dev
+Standards-Version: 4.5.0
+Homepage: https://ffmpeg.org
+
+Package: ffmpeg
+Architecture: arm64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Custom FFmpeg with Rockchip hardware acceleration and RGA filters
+ This package includes both hardware and software encoding/decoding,
+ with hardware acceleration provided by Rockchip MPP and Rockchip RGA
+ libraries. It also includes support for RGA-based filters.
